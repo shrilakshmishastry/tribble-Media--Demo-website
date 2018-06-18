@@ -31,7 +31,7 @@ class Header extends React.Component{
         </Helmet>
         <Navbar color="primary" light expand="md">
           <NavbarBrand className=" mr-auto">
-              <Img src="/templates/tribble-media-wit.svg" className="img-responsive " width="265px" height="100px" />
+              <Img src="/templates/tribble-media-wit.svg" className="img-responsive " width="265px" height="75px" />
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} >
         <span className="navbar-toggler-icon"></span>
