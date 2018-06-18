@@ -1,10 +1,14 @@
 import React,{Component} from 'react';
+import {Switch,Route,Link} from 'react-router-dom';
+import App from './app.js';
 
 class Main extends React.Component{
   render(){
     return(
       <div>
-        <h1>hello world</h1>
+          <Switch>
+            <Route path='/' component={App} />
+          </Switch>
       </div>
     );
   }
