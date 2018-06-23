@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React,{Component,props} from 'react';
 import {Link} from 'react-router-dom';
 import {Navbar,NavbarBrand,NavbarToggler,Collapse,Nav,NavItem,NavLink} from 'reactstrap';
 require('/home/shri/tribble-media/front/images/tribble-media-wit.svg');
