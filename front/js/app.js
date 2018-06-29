@@ -57,7 +57,7 @@ class App extends React.Component{
                   </CardBody>
                 </Card>
               </Col>
-              <Col md="5" className="bg-warning">
+              <Col md="5" className="bg-primary">
               <Card style={{background:"rgba(255,255,255,0.1)"}} >
                 <CardBody  >
                   <CardTitle className="text-white font-weight-bold h4 text-center">
